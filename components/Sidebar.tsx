@@ -20,13 +20,15 @@ const Sidebar = () => {
   return (
     <div>
       <div className="p-1 rounded-full bg-gradient-to-tr from-[#7928ca] to-[#ff0080]">
-        <div className="p-1 bg-white rounded-full">
+        <div className="p-1 bg-gray-300 rounded-full dark:bg-dark-200">
           <Image
             src={profile_pic}
-            alt="me"
+            alt="avatar"
             className="mx-auto rounded-full"
             layout="responsive"
             quality="100"
+            height="50px"
+            width="50px"
           />
         </div>
       </div>

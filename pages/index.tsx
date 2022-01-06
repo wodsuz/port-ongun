@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import {
   GetServerSideProps,
   GetServerSidePropsContext,
@@ -5,6 +6,7 @@ import {
   GetStaticPropsContext,
   NextPage,
 } from "next";
+import { fadeInUp, stagger } from "../animations";
 import ServiceCard from "../components/ServiceCard";
 import { services } from "../data";
 import { IService } from "../type";
@@ -15,25 +17,35 @@ const index: NextPage = () => {
   return (
     <div className="flex flex-col flex-grow px-6 pt-1 ">
       <h5 className="my-3 text-base font-medium">
-          Electrical and electronics engineerings Bachelor Degree, Automation and Robotics
-          Masters Degree, As of now, i am focused on machine learning and web application development.
-          I have 3+ years of pure Javascript work experince and knowledge on Java & Python. 
+        Electrical and electronics engineerings Bachelor Degree, Automation and
+        Robotics Masters Degree, As of now, i am focused on machine learning and
+        web application development. I have 3+ years of pure Javascript work
+        experince and knowledge on Java & Python.
       </h5>
       <div
         className="flex-grow p-4 mt-5 bg-gray-100 dark:bg-dark-100 "
         style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
       >
-        <h4 className="my-3 text-xl font-semibold tracking-wide"> What I am doing </h4>
-        <div className="grid gap-6 my-3 md:grid-cols-2">
+        <h4 className="my-3 text-xl font-semibold tracking-wide">
+          {" "}
+          What I am doing{" "}
+        </h4>
+        <motion.div
+          className="grid gap-6 my-3 md:grid-cols-2"
+          variants={stagger}
+          initial="initial"
+          animate="animate"
+        >
           {services.map((service) => (
-            <div
+            <motion.div
+              variants={fadeInUp}
               className="col-span-2 p-2 bg-gray-200 rounded-lg dark:bg-dark-200 md:col-span-1 "
               key={service.title}
             >
               <ServiceCard service={service} />
-            </div>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
       </div>
     </div>
   );
