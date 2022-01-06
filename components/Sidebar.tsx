@@ -13,8 +13,8 @@ import { GiDiploma } from "react-icons/gi";
 
 const Sidebar = () => {
   const { theme, setTheme } = useTheme();
+
   const changeTheme = () => {
-    // 1:54:29
     setTheme(theme === "light" ? "dark" : "light");
   };
   return (
@@ -36,12 +36,12 @@ const Sidebar = () => {
         <span> Ongun Demirağ </span>{" "}
       </h3>
 
-      <p className="flex items-center justify-center px-2 py-1 my-3 bg-gray-300 rounded-full">
+      <p className="flex items-center justify-center px-2 py-1 my-3 bg-gray-300 rounded-full dark:bg-dark-200">
         <FaFileCode className="w-7 h-7 " />{" "}
         <p className="px-3"> Web & Front-end Developer </p>
       </p>
       <a
-        className="flex items-center justify-center px-2 py-1 my-3 bg-gray-300 rounded-full"
+        className="flex items-center justify-center px-2 py-1 my-3 bg-gray-300 rounded-full dark:bg-dark-200"
         href=""
         download="name"
       >
@@ -49,7 +49,7 @@ const Sidebar = () => {
         <p className="px-3"> Certificates & Skills </p>
       </a>
       <a
-        className="flex items-center justify-center px-2 py-1 my-3 bg-gray-300 rounded-full"
+        className="flex items-center justify-center px-2 py-1 my-3 bg-gray-300 rounded-full dark:bg-dark-200"
         href=""
         download="name"
       >
@@ -71,7 +71,7 @@ const Sidebar = () => {
       </div>
 
       {/* Adress */}
-      <div className="py-4 my-5 bg-gray-300 round">
+      <div className="py-4 my-5 bg-gray-200 round dark:bg-dark-200">
         <div className="flex items-center justify-center space-x-2">
           <FaLocationArrow />
           <span> Poland, Europe</span>
@@ -86,7 +86,10 @@ const Sidebar = () => {
       >
         Email me now!
       </button>
-      <button className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-indigo-purple to-indigo-red ">
+      <button
+        onClick={changeTheme}
+        className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-indigo-purple to-indigo-red "
+      >
         Toggle theme!
       </button>
     </div>
