@@ -6,7 +6,7 @@ import {
   GetStaticPropsContext,
   NextPage,
 } from "next";
-import { fadeInUp, stagger } from "../animations";
+import { fadeInUp, stagger, routerAnimation } from "../animations";
 import ServiceCard from "../components/ServiceCard";
 import { services } from "../data";
 import { IService } from "../type";
@@ -15,7 +15,13 @@ const index: NextPage = () => {
   // console.log(services);
 
   return (
-    <div className="flex flex-col flex-grow px-6 pt-1 ">
+    <motion.div
+      className="flex flex-col flex-grow px-6 pt-1 "
+      variants={routerAnimation}
+      initial="initial"
+      animate="animate"
+      exit="exit"
+    >
       <h5 className="my-3 text-base font-medium">
         Electrical and electronics engineerings Bachelor Degree, Automation and
         Robotics Masters Degree, As of now, i am focused on machine learning and
@@ -47,7 +53,7 @@ const index: NextPage = () => {
           ))}
         </motion.div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
