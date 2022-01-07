@@ -10,6 +10,7 @@ import {
   FaLocationArrow,
 } from "react-icons/fa";
 import { GiDiploma } from "react-icons/gi";
+import { Deneme, Getday } from "./getday";
 
 const Sidebar = () => {
   const { theme, setTheme } = useTheme();
@@ -96,7 +97,7 @@ const Sidebar = () => {
       >
         Toggle theme!
       </button>
-      <div></div>
+      <Deneme />
     </div>
   );
 };

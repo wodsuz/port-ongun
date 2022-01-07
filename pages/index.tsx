@@ -10,6 +10,8 @@ import { fadeInUp, stagger, routerAnimation } from "../animations";
 import ServiceCard from "../components/ServiceCard";
 import { services } from "../data";
 import Head from "next/head";
+import { Getday } from "../components/getday";
+
 const index: NextPage = () => {
   // console.log(services);
 
@@ -21,9 +23,7 @@ const index: NextPage = () => {
       animate="animate"
       exit="exit"
     >
-      <Head>
-        <title>Ongun Demirağ | Portfolio</title>
-      </Head>
+      <Getday />
       <h5 className="my-3 text-base font-medium">
         Electrical and electronics engineerings Bachelor Degree, Automation and
         Robotics Masters Degree, As of now, i am focused on machine learning and

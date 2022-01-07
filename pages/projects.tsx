@@ -6,6 +6,7 @@ import ProjectCard from "../components/ProjectCard";
 import ProjectsNavbar from "../components/ProjectsNavbar";
 import { projects as projectsData } from "../data";
 import { category } from "../type";
+import { Getday } from "../components/getday";
 
 const Projects = () => {
   const [projects, setprojects] = useState(projectsData);
@@ -33,9 +34,8 @@ const Projects = () => {
       animate="animate"
       exit="exit"
     >
-      <Head>
-        <title>Ongun Demirağ | Portfolio</title>
-      </Head>
+      <Getday />
+
       <ProjectsNavbar
         handlerFilterCategory={handlerfilterCategory}
         active={active}

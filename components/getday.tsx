@@ -1,13 +1,29 @@
-const getday = () => {
-  var date = new Date().getDate();
+import React from "react";
+import { Helmet } from "react-helmet";
+
+export const Getday = () => {
   var month = new Date().getMonth() + 1;
   var year = new Date().getFullYear();
   var seperator = "/";
+  const TITLE = "Ongun Demirağ | " + month + seperator + year;
   return (
-    <div>
-      {month} {seperator} {year}{" "}
-    </div>
+    <Helmet>
+      <title>{TITLE}</title>
+    </Helmet>
   );
 };
 
-export default getday;
+export const Deneme = () => {
+  var month = new Date().getMonth() + 1;
+  var year = new Date().getFullYear();
+  var seperator = "/";
+  var signature = " ©OngunDemirag-";
+  return (
+    <div className="text-sm">
+      <p>
+        {" "}
+        {signature} {month} {seperator} {year}{" "}
+      </p>
+    </div>
+  );
+};

@@ -3,12 +3,12 @@ import { languages, tools } from "../data";
 import { motion } from "framer-motion";
 import { fadeInUp, routerAnimation } from "../animations";
 import Head from "next/head";
+import { Getday } from "../components/getday";
+
 const resume = () => {
   return (
     <div className="px-6 py-2">
-      <Head>
-        <title>Ongun Demirağ | Portfolio</title>
-      </Head>
+      <Getday />
       {/*  education & experience  */}
 
       <div className="grid gap-2 md:grid-cols-2">
