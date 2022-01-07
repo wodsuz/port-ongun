@@ -9,8 +9,7 @@ import {
 import { fadeInUp, stagger, routerAnimation } from "../animations";
 import ServiceCard from "../components/ServiceCard";
 import { services } from "../data";
-import { IService } from "../type";
-
+import Head from "next/head";
 const index: NextPage = () => {
   // console.log(services);
 
@@ -22,6 +21,9 @@ const index: NextPage = () => {
       animate="animate"
       exit="exit"
     >
+      <Head>
+        <title>Ongun Demirağ | Portfolio</title>
+      </Head>
       <h5 className="my-3 text-base font-medium">
         Electrical and electronics engineerings Bachelor Degree, Automation and
         Robotics Masters Degree, As of now, i am focused on machine learning and
@@ -58,14 +60,16 @@ const index: NextPage = () => {
 };
 
 //!called every time  the page refreshed
-// export const getServerSideProps: GetServerSideProps = async (
-//    context: GetServerSidePropsContext
-// ) => {
-//    const res = await fetch('http://localhost:3000/api/services')
-//    const data = await res.json()
-//    console.log(data)
-//    return { props: { services: data.services } }
-// }
+export const getServerSideProps: GetServerSideProps = async (
+  context: GetServerSidePropsContext
+) => {
+  /*
+  const res = await fetch(`${process.env.VERCEL_URL}/api/services`);
+  const data = await res.json();
+  console.log(data);
+  */
+  return { props: { endpoint: process.env.VERCEL_URL } };
+};
 
 //!called only during the build of the project
 //? make sure the server(localhost:3000)[this will receive the request during build] is running on a terminal during the build

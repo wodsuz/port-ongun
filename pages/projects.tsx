@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Head from "next/head";
 import { useState } from "react";
 import { fadeInUp, routerAnimation, stagger } from "../animations";
 import ProjectCard from "../components/ProjectCard";
@@ -32,6 +33,9 @@ const Projects = () => {
       animate="animate"
       exit="exit"
     >
+      <Head>
+        <title>Ongun Demirağ | Portfolio</title>
+      </Head>
       <ProjectsNavbar
         handlerFilterCategory={handlerfilterCategory}
         active={active}

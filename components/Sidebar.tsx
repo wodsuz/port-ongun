@@ -62,13 +62,19 @@ const Sidebar = () => {
       {/*  Social icon */}
       <div className="flex justify-around w-9/12 mx-auto my-5 text-green-500 md:w-full">
         <a href="">
-          <FaGithub className="w-8 h-8 cursor-pointer " />
+          <FaGithub className="w-8 h-8 cursor-pointer " aria-label="github" />
         </a>
         <a href="">
-          <FaLinkedin className="w-8 h-8 cursor-pointer" />
+          <FaLinkedin
+            className="w-8 h-8 cursor-pointer"
+            aria-label="linkedin"
+          />
         </a>
         <a href="">
-          <FaHackerrank className="w-8 h-8 cursor-pointer" />
+          <FaHackerrank
+            className="w-8 h-8 cursor-pointer"
+            aria-label="hackerrank"
+          />
         </a>
       </div>
 
