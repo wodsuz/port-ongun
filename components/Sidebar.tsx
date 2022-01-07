@@ -32,12 +32,10 @@ const Sidebar = () => {
           />
         </div>
       </div>
-
       <h3 className="my-4 text-3xl font-medium font-kaushan">
         {" "}
         <span> Ongun Demirağ </span>{" "}
       </h3>
-
       <p className="flex items-center justify-center px-2 py-1 my-3 bg-gray-300 rounded-full dark:bg-dark-200">
         <FaFileCode className="w-7 h-7 " />{" "}
         <p className="px-3"> Web & Front-end Developer </p>
@@ -58,7 +56,6 @@ const Sidebar = () => {
         <FaDownload className="w-7 h-7 " />{" "}
         <p className="px-3"> Download Resume </p>
       </a>
-
       {/*  Social icon */}
       <div className="flex justify-around w-9/12 mx-auto my-5 text-green-500 md:w-full">
         <a href="">
@@ -77,7 +74,6 @@ const Sidebar = () => {
           />
         </a>
       </div>
-
       {/* Adress */}
       <div className="py-4 my-5 bg-gray-200 round dark:bg-dark-200">
         <div className="flex items-center justify-center space-x-2">
@@ -100,6 +96,7 @@ const Sidebar = () => {
       >
         Toggle theme!
       </button>
+      <div></div>
     </div>
   );
 };
