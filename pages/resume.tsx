@@ -2,16 +2,10 @@ import Bar from "../components/Bar";
 import { languages, tools } from "../data";
 import { motion } from "framer-motion";
 import { fadeInUp, routerAnimation } from "../animations";
-import { Head } from "next/document";
+import Head from "next/head";
 const resume = () => {
   return (
-    <motion.div
-      className="px-6 py-2"
-      variants={routerAnimation}
-      initial="initial"
-      animate="animate"
-      exit="exit"
-    >
+    <div className="px-6 py-2">
       <Head>
         <title>Ongun Demirağ | Portfolio</title>
       </Head>
@@ -87,7 +81,7 @@ const resume = () => {
           </div>
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 };
 

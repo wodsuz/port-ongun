@@ -5,26 +5,26 @@ import { motion } from "framer-motion";
 const Bar: FunctionComponent<{
   data: ISkill;
 }> = ({ data: { Icon, level, name } }) => {
-  const bar_width = `${level}%`;
+  const bar_width = `${level}`;
   const variants = {
     initial: {
       width: 0,
+      height: 30,
     },
     animate: {
       width: bar_width,
-      traansition: {
-        duration: 0.4,
-        type: "spring",
-        damping: 10,
-        stiiffness: 100,
+      height: 30,
+      transition: {
+        delay: 0,
+        duration: 2,
       },
     },
   };
 
   return (
-    <div className="text-white my-1 bg-gray-300 rounded-full dark:bg-dark-300 dark:bg-black-500">
+    <div className="my-1 text-white bg-gray-300 rounded-full dark:bg-dark-300 dark:bg-black-500">
       <motion.div
-        className="px-4 py-1 flex items-center rounded-full bg-gradient-to-r from-primary to-secondary"
+        className="flex items-center px-4 py-1 rounded-full bg-gradient-to-r from-primary to-secondary"
         style={{ width: bar_width }}
         variants={variants}
         initial="initial"

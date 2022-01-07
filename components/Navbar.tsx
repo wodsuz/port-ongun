@@ -12,7 +12,7 @@ const NavItem: FunctionComponent<{
     <Link href={route}>
       <a>
         <span
-          className="mx-2 cursor-pointer hover:border-b-4 hover:text-primary hover:border-secondary"
+          className="mx-2 cursor-pointer hover:border-b-4 hover:border-primary"
           onClick={() => setActive(name)}
         >
           {name}

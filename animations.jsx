@@ -16,6 +16,7 @@ export const stagger = {
     },
   },
 };
+
 export const routerAnimation = {
   initial: {
     opacity: 0,
