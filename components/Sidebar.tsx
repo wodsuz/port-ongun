@@ -1,5 +1,4 @@
 import Image from "next/image";
-import profile_pic from "../public/images/ongun_new.jpg";
 import { useTheme } from "next-themes";
 import {
   FaFileCode,
@@ -18,18 +17,21 @@ const Sidebar = () => {
   const changeTheme = () => {
     setTheme(theme === "light" ? "dark" : "light");
   };
+  var random_num = Math.floor(Math.random() * 7);
+  var img_path = "/images/Propic/ongun" + random_num + ".jpg";
   return (
     <div>
       <div className="p-1 rounded-full bg-gradient-to-tr from-[#7928ca] to-[#ff0080]">
         <div className="p-1 bg-gray-300 rounded-full dark:bg-dark-200">
           <Image
-            src={profile_pic}
+            src={img_path}
             alt="avatar"
             className="mx-auto rounded-full"
             layout="responsive"
             quality="100"
             height="50px"
             width="50px"
+            objectFit="cover"
           />
         </div>
       </div>

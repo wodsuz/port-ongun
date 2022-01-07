@@ -1,8 +1,8 @@
-# Ongun Demirağ - wwww.ongundemirag.com
+# Ongun Demirağ - www.ongundemirag.com
 
 ## Portfolio website for Ongun Demirag
 
-- Live version avalible on: wwww.ongundemirag.com
+- Live version avalible on: www.ongundemirag.com
 
 ## Features
 
@@ -17,8 +17,9 @@
 - Projects page: Each self,personal projects displayed as grid with summary,
 - Grid, flex, block and layout schematic & practises,
 - BEM - Blocks, Elements and Modifiers CSS naming technique,
-- Integrated to Github Pages and .com domain
-- Crossbrowser adaptibility
+- Integrated to Github Pages and .com domain,
+- Crossbrowser adaptibility,
+- Displays updated and current time on top tab
 
 ## Technologies
 
