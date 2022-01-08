@@ -31,6 +31,7 @@
 - Typescript v.4
 - Git v.2
 - Node.js v.13
+- Vercel v.23
 
 ## Softwares
 
