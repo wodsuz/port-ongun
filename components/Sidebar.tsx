@@ -10,6 +10,7 @@ import {
 } from "react-icons/fa";
 import { MdOutlineLocationOn } from "react-icons/md";
 import { GiDiploma } from "react-icons/gi";
+import { SiVercel } from "react-icons/si";
 import { Deneme, Getday } from "./getday";
 
 var random_num = Math.floor(Math.random() * 7);
@@ -87,6 +88,9 @@ const Sidebar = () => {
             className="w-8 h-8 cursor-pointer"
             aria-label="hackerrank"
           />
+        </a>
+        <a href="https://vercel.com/wodsuz" target="_blank" rel="noreferrer">
+          <SiVercel className="w-8 h-8 cursor-pointer" aria-label="Vercel" />
         </a>
       </div>
       {/* Adress */}
