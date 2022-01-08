@@ -10,11 +10,15 @@ const ServiceCard: FunctionComponent<{ service: IService }> = ({
     };
   };
   return (
-    <div className="flex items-center p-2 space-x-4">
-      <Icon className="w-12 h-12 text-primary" />
+    <div className="flex items-center p-2 space-x-4 flex-row ">
+      <div className="basis-1/8">
+        <Icon className="w-12 h-12 text-primary " />
+      </div>
       <div>
         <h5 className="font-bold">{title}</h5>
-        <p dangerouslySetInnerHTML={createMarkup()} />
+        <div className="basis-1/2">
+          <p dangerouslySetInnerHTML={createMarkup()} />
+        </div>
       </div>
     </div>
   );

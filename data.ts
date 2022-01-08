@@ -1,6 +1,8 @@
-import { RiComputerLine } from "react-icons/ri";
+import { RiComputerLine, RiTeamLine } from "react-icons/ri";
 import { FaServer } from "react-icons/fa";
 import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
+import { CgPerformance } from "react-icons/cg";
+import { HiOutlineDocumentText } from "react-icons/hi";
 import { MdDeveloperMode } from "react-icons/md";
 import { BsCircleFill } from "react-icons/bs";
 import { IProject, IService, ISkill } from "./type";
@@ -23,42 +25,55 @@ import {
   SiAutodesk,
   SiSelenium,
 } from "react-icons/si";
+import { icons } from "react-icons/lib";
 
 export const services: IService[] = [
   {
     Icon: RiComputerLine,
-    title: "Frontend Development",
+    title: "Front-end Development",
     about:
-      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ",
+      "Abke to build a user-friendly, responsive and scalable SPA using <b> HTML</b>,<b>CSS</b> and <b>React.js</b> ",
   },
   {
     Icon: FaServer,
     title: "Backend  Development",
     about:
-      "handle database, server, api using <b>Express </b> & other popular frameworks",
+      "Handle automation, web-testing, web scrapping with <b> Python, Selenium </b> and other popular frameworks",
   },
   {
     Icon: AiOutlineApi,
-    title: "API Development",
+    title: "API Integration",
     about:
-      "I can develop robust  REST API using <b>django-rest-api</b>  & <b>Node API</b> ",
+      "Experience with browser APIs and optimising front end performance.Work closely with backend developers to maximize retriving data proces from API's.",
   },
   {
     Icon: MdDeveloperMode,
     title: "Competitive Coder",
-    about: "a daily problem solver in <b>HackerRank</b>  and <b>Leet Code</b> ",
+    about: "A daily problem solver in <b>HackerRank</b>  and <b>Coursera</b> ",
   },
   {
     Icon: AiOutlineAntDesign,
     title: "UI/UX designer",
     about:
-      "stunning user interface designer using <b>Figma</b>  and  <b>Framer</b> ",
+      "Interractive user interface design using <b>Qt editor</b>  and  <b>Kiyvmd</b>. Moreover mock-up designs preparation with <b> Figma </b> and <b> Frammer </b> ",
   },
   {
-    Icon: RiComputerLine,
-    title: "Whatever",
+    Icon: CgPerformance,
+    title: "Performance Improvement",
     about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!",
+      "Perform regular site maintenance and optimization of web pages for maximum speed, scalability, and the best user experience",
+  },
+  {
+    Icon: HiOutlineDocumentText,
+    title: "Technical Documentation preparation",
+    about:
+      "Produce documentation for the work done so support and other members of the team understand the changes to the product",
+  },
+  {
+    Icon: RiTeamLine,
+    title: "Work in team / scrum & gti enviroment",
+    about:
+      "Familiar scrum concepts and had experience working in a team enviorement.Native in English, collaborative spirit and the ability to work effectively with a team ",
   },
 ];
 

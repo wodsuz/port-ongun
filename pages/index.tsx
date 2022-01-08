@@ -9,12 +9,9 @@ import {
 import { fadeInUp, stagger, routerAnimation } from "../animations";
 import ServiceCard from "../components/ServiceCard";
 import { services } from "../data";
-import Head from "next/head";
 import { Getday } from "../components/getday";
 
 const index: NextPage = () => {
-  // console.log(services);
-
   return (
     <motion.div
       className="flex flex-col flex-grow px-6 pt-1 "
@@ -24,19 +21,22 @@ const index: NextPage = () => {
       exit="exit"
     >
       <Getday />
-      <h5 className="my-3 text-base font-medium">
-        Electrical and electronics engineerings Bachelor Degree, Automation and
-        Robotics Masters Degree, As of now, i am focused on machine learning and
-        web application development. I have 3+ years of pure Javascript work
-        experince and knowledge on Java & Python.
+      <h5 className="my-3 text-lg font-medium text-justify">
+        Electrical and electronics engineering Bachelor Degree, Automation and
+        Robotics engineering Masters Degree, As of now, i am focused on machine
+        learning and web application development. I have 3+ years of ECMAScript
+        work experince and knowledge on Java & Python. Focusing on responsive,
+        web and mobile applications by using new, promising frameworks. I have
+        huge interest on following new technologies, innovations and
+        implementing them on older out-dated applications.
       </h5>
       <div
         className="flex-grow p-4 mt-5 bg-gray-100 dark:bg-dark-100 "
         style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
       >
-        <h4 className="my-3 text-xl font-semibold tracking-wide">
+        <h4 className="my-1 text-xl font-semibold tracking-wide">
           {" "}
-          What I am doing{" "}
+          Responsibilities{" "}
         </h4>
         <motion.div
           className="grid gap-6 my-3 md:grid-cols-2"
@@ -47,7 +47,7 @@ const index: NextPage = () => {
           {services.map((service) => (
             <motion.div
               variants={fadeInUp}
-              className="col-span-2 p-2 bg-gray-200 rounded-lg dark:bg-dark-200 md:col-span-1 "
+              className="col-span-2 p-1 bg-gray-200 rounded-lg dark:bg-dark-200 md:col-span-1 "
               key={service.title}
             >
               <ServiceCard service={service} />

@@ -8,6 +8,7 @@ import {
   FaLinkedin,
   FaLocationArrow,
 } from "react-icons/fa";
+import { MdOutlineLocationOn } from "react-icons/md";
 import { GiDiploma } from "react-icons/gi";
 import { Deneme, Getday } from "./getday";
 
@@ -45,33 +46,33 @@ const Sidebar = () => {
         <p className="px-3"> Web & Front-end Developer </p>
       </p>
       <a
+        target="_blank"
+        href="https://drive.google.com/drive/folders/0B8f0SWVACBExTXBTR2ItTC1CVDQ?resourcekey=0-IbDYaTx566W_UTf5LpbXcQ&usp=sharing"
         className="flex items-center justify-center px-2 py-1 my-3 bg-gray-300 rounded-full dark:bg-dark-200"
-        href=""
-        download="name"
       >
         <GiDiploma className="w-8 h-8" />{" "}
         <p className="px-3"> Certificates & Skills </p>
       </a>
       <a
+        target="_blank"
         className="flex items-center justify-center px-2 py-1 my-3 bg-gray-300 rounded-full dark:bg-dark-200"
-        href=""
-        download="name"
+        href="https://drive.google.com/drive/folders/1Wwry3C6cCYPZtnnj1aN2i33l_hSQMB-d?usp=sharing"
       >
         <FaDownload className="w-7 h-7 " />{" "}
         <p className="px-3"> Download Resume </p>
       </a>
       {/*  Social icon */}
       <div className="flex justify-around w-9/12 mx-auto my-5 text-secondary md:w-full">
-        <a href="">
+        <a href="https://github.com/wodsuz" target="_blank">
           <FaGithub className="w-8 h-8 cursor-pointer " aria-label="github" />
         </a>
-        <a href="">
+        <a href="https://www.linkedin.com/in/ongun-demirag" target="_blank">
           <FaLinkedin
             className="w-8 h-8 cursor-pointer"
             aria-label="linkedin"
           />
         </a>
-        <a href="">
+        <a href="https://www.hackerrank.com/wodsuz" target="_blank">
           <FaHackerrank
             className="w-8 h-8 cursor-pointer"
             aria-label="hackerrank"
@@ -81,7 +82,7 @@ const Sidebar = () => {
       {/* Adress */}
       <div className="py-4 my-5 bg-gray-200 round dark:bg-dark-200">
         <div className="flex items-center justify-center space-x-2">
-          <FaLocationArrow />
+          <MdOutlineLocationOn />
           <span> Poland, Europe</span>
         </div>
         <p className="my-2"> ongun.demirag@gmail.com </p>
