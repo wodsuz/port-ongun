@@ -27,8 +27,14 @@ export type category =
   | "React"
   | "Next"
   | "Node"
-  | "Vanilla(ES6)"
+  | "Vanilla(ES6)" // api , bootstrap
+  | "API"
+  | "Bootstrap"
+  | "TypeScript"
   | "Python"
   | "UI"
+  | "Selenium"
+  | "KivyMD"
+  | "Google Solutions"
   | "SASS"
   | "Tailwind CSS";

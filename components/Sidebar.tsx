@@ -47,6 +47,7 @@ const Sidebar = () => {
       </p>
       <a
         target="_blank"
+        rel="noreferrer"
         href="https://drive.google.com/drive/folders/0B8f0SWVACBExTXBTR2ItTC1CVDQ?resourcekey=0-IbDYaTx566W_UTf5LpbXcQ&usp=sharing"
         className="flex items-center justify-center px-2 py-1 my-3 bg-gray-300 rounded-full dark:bg-dark-200"
       >
@@ -55,6 +56,7 @@ const Sidebar = () => {
       </a>
       <a
         target="_blank"
+        rel="noreferrer"
         className="flex items-center justify-center px-2 py-1 my-3 bg-gray-300 rounded-full dark:bg-dark-200"
         href="https://drive.google.com/drive/folders/1Wwry3C6cCYPZtnnj1aN2i33l_hSQMB-d?usp=sharing"
       >
@@ -63,16 +65,24 @@ const Sidebar = () => {
       </a>
       {/*  Social icon */}
       <div className="flex justify-around w-9/12 mx-auto my-5 text-secondary md:w-full">
-        <a href="https://github.com/wodsuz" target="_blank">
+        <a href="https://github.com/wodsuz" target="_blank" rel="noreferrer">
           <FaGithub className="w-8 h-8 cursor-pointer " aria-label="github" />
         </a>
-        <a href="https://www.linkedin.com/in/ongun-demirag" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/ongun-demirag"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaLinkedin
             className="w-8 h-8 cursor-pointer"
             aria-label="linkedin"
           />
         </a>
-        <a href="https://www.hackerrank.com/wodsuz" target="_blank">
+        <a
+          href="https://www.hackerrank.com/wodsuz"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaHackerrank
             className="w-8 h-8 cursor-pointer"
             aria-label="hackerrank"

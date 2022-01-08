@@ -26,8 +26,14 @@ const ProjectsNavbar: FunctionComponent<{
       <NavItem value="React" {...props} />
       <NavItem value="Next" {...props} />
       <NavItem value="Node" {...props} />
+      <NavItem value="API" {...props} />
+      <NavItem value="Bootstrap" {...props} />
+      <NavItem value="TypeScript" {...props} />
       <NavItem value="Vanilla(ES6)" {...props} />
       <NavItem value="Python" {...props} />
+      <NavItem value="Selenium" {...props} />
+      <NavItem value="KivyMD" {...props} />
+      <NavItem value="Google Solutions" {...props} />
       <NavItem value="UI" {...props} />
       <NavItem value="SASS" {...props} />
       <NavItem value="Tailwind CSS" {...props} />
