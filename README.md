@@ -20,6 +20,7 @@
 - Integrated to Github Pages and .com domain,
 - Crossbrowser adaptibility,
 - Displays updated and current time on top tab
+- Icons: React Icons + Simple Icons
 
 ## Technologies
 

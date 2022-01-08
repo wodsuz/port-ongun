@@ -4,6 +4,25 @@ import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
 import { MdDeveloperMode } from "react-icons/md";
 import { BsCircleFill } from "react-icons/bs";
 import { IProject, IService, ISkill } from "./type";
+import {
+  SiPython,
+  SiJavascript,
+  SiReact,
+  SiNextdotjs,
+  SiNodedotjs,
+  SiTypescript,
+  SiHtml5,
+  SiCss3,
+  SiBootstrap,
+  SiSass,
+  SiTailwindcss,
+  SiVisualstudio,
+  SiFirefoxbrowser,
+  SiCkeditor4,
+  SiEclipseide,
+  SiAutodesk,
+  SiSelenium,
+} from "react-icons/si";
 
 export const services: IService[] = [
   {
@@ -45,59 +64,64 @@ export const services: IService[] = [
 
 export const languages: ISkill[] = [
   {
-    name: "Python (Selenium,KivyMd)",
+    name: "Python (KivyMd,Keras)",
     level: "80%",
-    Icon: BsCircleFill,
+    Icon: SiPython,
+  },
+  {
+    name: "Selenium (webdriver)",
+    level: "90%",
+    Icon: SiSelenium,
   },
   {
     name: "Java Script (Vanilla js)",
     level: "80%",
-    Icon: BsCircleFill,
+    Icon: SiJavascript,
   },
   {
     name: "React.js",
     level: "60%",
-    Icon: BsCircleFill,
+    Icon: SiReact,
   },
   {
     name: "Next.js",
     level: "60%",
-    Icon: BsCircleFill,
+    Icon: SiNextdotjs,
   },
   {
     name: "Node.js",
     level: "60%",
-    Icon: BsCircleFill,
+    Icon: SiNodedotjs,
   },
   {
     name: "TypeScript",
     level: "60%",
-    Icon: BsCircleFill,
+    Icon: SiTypescript,
   },
   {
     name: "HTML5",
     level: "90%",
-    Icon: BsCircleFill,
+    Icon: SiHtml5,
   },
   {
     name: "CS3",
     level: "90%",
-    Icon: BsCircleFill,
+    Icon: SiCss3,
   },
   {
     name: "Bootstrap",
     level: "90%",
-    Icon: BsCircleFill,
+    Icon: SiBootstrap,
   },
   {
     name: "SASS & SCSS",
     level: "70%",
-    Icon: BsCircleFill,
+    Icon: SiSass,
   },
   {
     name: "Tailwind CSS",
     level: "50%",
-    Icon: BsCircleFill,
+    Icon: SiTailwindcss,
   },
 ];
 
@@ -105,12 +129,12 @@ export const tools: ISkill[] = [
   {
     name: "VS Code",
     level: "80%",
-    Icon: BsCircleFill,
+    Icon: SiVisualstudio,
   },
   {
     name: "Browser Console",
     level: "80%",
-    Icon: BsCircleFill,
+    Icon: SiFirefoxbrowser,
   },
   {
     name: "MATLAB",
@@ -120,17 +144,17 @@ export const tools: ISkill[] = [
   {
     name: "QT Editor",
     level: "50%",
-    Icon: BsCircleFill,
+    Icon: SiCkeditor4,
   },
   {
     name: "Eclipse IDE",
     level: "50%",
-    Icon: BsCircleFill,
+    Icon: SiEclipseide,
   },
   {
     name: "Auto CAD",
     level: "50%",
-    Icon: BsCircleFill,
+    Icon: SiAutodesk,
   },
 ];
 

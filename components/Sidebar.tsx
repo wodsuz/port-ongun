@@ -11,14 +11,15 @@ import {
 import { GiDiploma } from "react-icons/gi";
 import { Deneme, Getday } from "./getday";
 
+var random_num = Math.floor(Math.random() * 7);
+var img_path = "/images/Propic/ongun" + random_num + ".jpg";
+
 const Sidebar = () => {
   const { theme, setTheme } = useTheme();
-
   const changeTheme = () => {
     setTheme(theme === "light" ? "dark" : "light");
   };
-  var random_num = Math.floor(Math.random() * 7);
-  var img_path = "/images/Propic/ongun" + random_num + ".jpg";
+
   return (
     <div>
       <div className="p-1 rounded-full bg-gradient-to-tr from-[#7928ca] to-[#ff0080]">
@@ -60,7 +61,7 @@ const Sidebar = () => {
         <p className="px-3"> Download Resume </p>
       </a>
       {/*  Social icon */}
-      <div className="flex justify-around w-9/12 mx-auto my-5 text-green-500 md:w-full">
+      <div className="flex justify-around w-9/12 mx-auto my-5 text-secondary md:w-full">
         <a href="">
           <FaGithub className="w-8 h-8 cursor-pointer " aria-label="github" />
         </a>
