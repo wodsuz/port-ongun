@@ -22,13 +22,13 @@ const index: NextPage = () => {
     >
       <Getday />
       <h5 className="my-3 text-lg font-medium text-justify">
-        Electrical and electronics engineering Bachelor Degree, Automation and
-        Robotics engineering Masters Degree, As of now, i am focused on machine
+        Electrical and electronics engineering bachelor’s degree, Automation and
+        Robotics engineering master’s degree, as of now, I am focused on machine
         learning and web application development. I have 3+ years of ECMAScript
-        work experince and knowledge on Java & Python. Focusing on responsive,
+        work experience and knowledge on Java & Python. Focusing on responsive,
         web and mobile applications by using new, promising frameworks. I have
         huge interest on following new technologies, innovations and
-        implementing them on older out-dated applications.
+        implementing them on older outdated applications.
       </h5>
       <div
         className="flex-grow p-4 mt-5 bg-gray-100 dark:bg-dark-100 "

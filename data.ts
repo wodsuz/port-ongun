@@ -32,7 +32,7 @@ export const services: IService[] = [
     Icon: RiComputerLine,
     title: "Front-end Development",
     about:
-      "Abke to build a user-friendly, responsive and scalable SPA using <b> HTML</b>,<b>CSS</b> and <b>React.js</b> ",
+      "Able to build a user-friendly, responsive and scalable SPA using <b> HTML</b>,<b>CSS</b> and <b>React.js</b> ",
   },
   {
     Icon: FaServer,
@@ -44,7 +44,7 @@ export const services: IService[] = [
     Icon: AiOutlineApi,
     title: "API Integration",
     about:
-      "Experience with browser APIs and optimising front end performance.Work closely with backend developers to maximize retriving data proces from API's.",
+      "Experience with browser APIs and optimizing front end performance. Work closely with backend developers to maximize retrieving data process from API's.",
   },
   {
     Icon: MdDeveloperMode,
@@ -55,7 +55,7 @@ export const services: IService[] = [
     Icon: AiOutlineAntDesign,
     title: "UI/UX designer",
     about:
-      "Interractive user interface design using <b>Qt editor</b>  and  <b>Kiyvmd</b>. Moreover mock-up designs preparation with <b> Figma </b> and <b> Frammer </b> ",
+      "Interactive user interface design using <b>Qt editor</b> and  <b>Kiyvmd</b>. Moreover, mock-up designs preparation with <b> Figma </b>and<b> Frammer </b> ",
   },
   {
     Icon: CgPerformance,
@@ -73,7 +73,7 @@ export const services: IService[] = [
     Icon: RiTeamLine,
     title: "Work in team / scrum & gti enviroment",
     about:
-      "Familiar scrum concepts and had experience working in a team enviorement.Native in English, collaborative spirit and the ability to work effectively with a team ",
+      "Familiar scrum concepts and had experience working in a team environment. Native in English, collaborative spirit and the ability to work effectively with a team ",
   },
 ];
 

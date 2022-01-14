@@ -47,8 +47,8 @@ const resume = () => {
             </h5>
             <p className="text-base font-semibold">07/2017 - 03/2018 </p>
             <p className="my-1">
-              UI design,CAD software scripts with EcmaScript, Converting
-              electrical eng. formulas into add-ons and computer functions.{" "}
+              UI design, CAD software scripts with ECMAScript, Converting
+              electrical Eng. formulas into add-ons and computer functions.{" "}
             </p>
             <h5 className="my-1 text-lg font-bold">
               Part time project management & consulting, Arimed, Turkey{" "}
