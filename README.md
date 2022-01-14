@@ -4,6 +4,11 @@
 
 - Live version avalible on: www.ongundemirag.com
 
+## How it looks
+
+![FireShot Capture 018 - Ongun Demirağ - 1_2022 - www ongundemirag com](https://user-images.githubusercontent.com/34207598/149514834-2a760ea4-ecbf-470e-afe8-24aca73606b8.png)
+![FireShot Capture 017 - Ongun Demirağ - 1_2022 - www ongundemirag com](https://user-images.githubusercontent.com/34207598/149514843-1e297a1f-8ac4-4d1c-859c-07a138e49d0f.png)
+
 ## Features
 
 - Fully mobile responsive & friendly,
@@ -45,6 +50,13 @@
 - [My Github](https://github.com/wodsuz)
 - [My Hackerrank](https://www.hackerrank.com/wodsuz)
 - Email: ongun.demirag@gmail.com
+
+## Mobile view
+
+![FireShot Capture 020 - Ongun Demirağ - 1_2022 - www ongundemirag com](https://user-images.githubusercontent.com/34207598/149514885-8d5e90ff-cb34-4afe-83cd-017fe2a8161a.png)
+
+
+
 
 # Thanks to youtube videos and tutorials
 
