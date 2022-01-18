@@ -6,9 +6,9 @@
 
 ## How it looks
 
+![Animation](https://user-images.githubusercontent.com/34207598/149974238-09e4ece2-38f4-45c6-a2f9-991b17d3e150.gif)
 ![FireShot Capture 018 - Ongun Demirağ - 1_2022 - www ongundemirag com](https://user-images.githubusercontent.com/34207598/149514834-2a760ea4-ecbf-470e-afe8-24aca73606b8.png)
 ![FireShot Capture 017 - Ongun Demirağ - 1_2022 - www ongundemirag com](https://user-images.githubusercontent.com/34207598/149514843-1e297a1f-8ac4-4d1c-859c-07a138e49d0f.png)
-![Animation](https://user-images.githubusercontent.com/34207598/149974238-09e4ece2-38f4-45c6-a2f9-991b17d3e150.gif)
 
 ## Features
 
