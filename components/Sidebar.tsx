@@ -49,21 +49,29 @@ const Sidebar = () => {
       <a
         target="_blank"
         rel="noreferrer"
+        className="flex items-center justify-center px-2 py-1 my-3 transition duration-1000 bg-gray-300 rounded-full dark:bg-dark-200 group "
         href="https://drive.google.com/drive/folders/0B8f0SWVACBExTXBTR2ItTC1CVDQ?resourcekey=0-IbDYaTx566W_UTf5LpbXcQ&usp=sharing"
-        className="flex items-center justify-center px-2 py-1 my-3 bg-gray-300 rounded-full dark:bg-dark-200"
       >
         <GiDiploma className="w-8 h-8" />{" "}
-        <p className="px-3"> Certificates & Skills </p>
+        <p className="px-3">
+          {" "}
+          Certificates & Skills
+          <span className="block max-w-0 group-hover:max-w-full transition-all duration-1000 h-0.5 bg-primary"></span>
+        </p>
       </a>
       <a
         target="_blank"
         rel="noreferrer"
-        className="flex items-center justify-center px-2 py-1 my-3 bg-gray-300 rounded-full dark:bg-dark-200"
+        className="flex items-center justify-center px-2 py-1 my-3 transition duration-1000 bg-gray-300 rounded-full dark:bg-dark-200 group "
         href="https://drive.google.com/drive/folders/1Wwry3C6cCYPZtnnj1aN2i33l_hSQMB-d?usp=sharing"
       >
         <FaDownload className="w-7 h-7 " />{" "}
-        <p className="px-3"> Download Resume </p>
+        <p className="px-3">
+          Download Resume{" "}
+          <span className="block max-w-0 group-hover:max-w-full transition-all duration-1000 h-0.5 bg-primary"></span>
+        </p>
       </a>
+
       {/*  Social icon */}
       <div className="flex justify-around w-9/12 mx-auto my-5 text-secondary md:w-full">
         <a href="https://github.com/wodsuz" target="_blank" rel="noreferrer">
