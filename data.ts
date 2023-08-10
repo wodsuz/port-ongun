@@ -24,6 +24,16 @@ import {
   SiEclipseide,
   SiAutodesk,
   SiSelenium,
+  SiHubspot,
+  SiAsana,
+  SiJira,
+  SiSlack,
+  SiMongodb,
+  SiExpress,
+  SiEthereum,
+  SiBlockchaindotcom,
+  SiScrumalliance,
+  SiAntdesign,
 } from "react-icons/si";
 import { icons } from "react-icons/lib";
 
@@ -138,6 +148,22 @@ export const languages: ISkill[] = [
     level: "50%",
     Icon: SiTailwindcss,
   },
+  {
+    name: "Express.js",
+    level: "50%",
+    Icon: SiExpress,
+  },
+
+  {
+    name: "Ant Design",
+    level: "80%",
+    Icon: SiAntdesign,
+  },
+  {
+    name: "MongoDb",
+    level: "40%",
+    Icon: SiMongodb,
+  },
 ];
 
 export const tools: ISkill[] = [
@@ -170,6 +196,40 @@ export const tools: ISkill[] = [
     name: "Auto CAD",
     level: "50%",
     Icon: SiAutodesk,
+  },
+  {
+    name: "Hubspot",
+    level: "80%",
+    Icon: SiHubspot,
+  },
+
+  {
+    name: "Asana",
+    level: "80%",
+    Icon: SiAsana,
+  },
+
+  {
+    name: "Jira",
+    level: "50%",
+    Icon: SiJira,
+  },
+
+  {
+    name: "Slack",
+    level: "90%",
+    Icon: SiSlack,
+  },
+
+  {
+    name: "Scrum",
+    level: "60%",
+    Icon: SiScrumalliance,
+  },
+  {
+    name: "Blockchain",
+    level: "70%",
+    Icon: SiBlockchaindotcom,
   },
 ];
 
