@@ -11,7 +11,7 @@ import {
 import { MdOutlineLocationOn } from "react-icons/md";
 import { GiDiploma } from "react-icons/gi";
 import { SiVercel } from "react-icons/si";
-import { Deneme, Getday } from "./getday";
+import { DisplayDate, Getday } from "./getday";
 
 var random_num = Math.floor(Math.random() * 7);
 var img_path = "/images/Propic/ongun" + random_num + ".jpg";
@@ -73,9 +73,12 @@ const Sidebar = () => {
       </a>
 
       {/*  Social icon */}
-      <div className="flex justify-around w-9/12 mx-auto my-5 text-secondary md:w-full">
+      <div className="flex justify-around w-9/12 mx-auto my-5 text-secondary md:w-full ">
         <a href="https://github.com/wodsuz" target="_blank" rel="noreferrer">
-          <FaGithub className="w-8 h-8 cursor-pointer " aria-label="github" />
+          <FaGithub
+            className="w-8 h-8 cursor-pointer hover:text-primary "
+            aria-label="github"
+          />
         </a>
         <a
           href="https://www.linkedin.com/in/ongun-demirag"
@@ -83,7 +86,7 @@ const Sidebar = () => {
           rel="noreferrer"
         >
           <FaLinkedin
-            className="w-8 h-8 cursor-pointer"
+            className="w-8 h-8 cursor-pointer hover:text-primary "
             aria-label="linkedin"
           />
         </a>
@@ -93,15 +96,19 @@ const Sidebar = () => {
           rel="noreferrer"
         >
           <FaHackerrank
-            className="w-8 h-8 cursor-pointer"
+            className="w-8 h-8 cursor-pointer hover:text-primary "
             aria-label="hackerrank"
           />
         </a>
         <a href="https://vercel.com/wodsuz" target="_blank" rel="noreferrer">
-          <SiVercel className="w-8 h-8 cursor-pointer" aria-label="Vercel" />
+          <SiVercel
+            className="w-8 h-8 cursor-pointer hover:text-primary "
+            aria-label="Vercel"
+          />
         </a>
       </div>
       {/* Adress */}
+
       <div className="py-4 my-5 bg-gray-200 round dark:bg-dark-200">
         <div className="flex items-center justify-center space-x-2">
           <MdOutlineLocationOn />
@@ -110,20 +117,20 @@ const Sidebar = () => {
         <p className="my-2"> ongun.demirag@gmail.com </p>
         <p className="my-2"> +48 731268928 | +90 5310231393</p>
       </div>
-      {/* Email button */}
+      {/* Email and Theme buttons */}
       <button
-        className="w-8/12 px-5 py-2 text-white rounded-full cursor-pointer px-15 bg-gradient-to-r from-indigo-purple to-indigo-red "
+        className="w-8/12 px-5 py-2 text-white rounded-full px-15 bg-gradient-to-r from-indigo-purple to-indigo-red hover:scale-105"
         onClick={() => window.open("mailto:ongun.demirag@gmail.com")}
       >
         Email me now!
       </button>
       <button
         onClick={changeTheme}
-        className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-indigo-purple to-indigo-red "
+        className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-indigo-purple to-indigo-red hover:scale-105"
       >
         Toggle theme!
       </button>
-      <Deneme />
+      <DisplayDate />
     </div>
   );
 };

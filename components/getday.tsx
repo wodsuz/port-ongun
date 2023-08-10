@@ -13,7 +13,7 @@ export const Getday = () => {
   );
 };
 
-export const Deneme = () => {
+export const DisplayDate = () => {
   var month = new Date().getMonth() + 1;
   var year = new Date().getFullYear();
   var seperator = "/";
