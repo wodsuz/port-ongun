@@ -114,8 +114,11 @@ const Sidebar = () => {
           <MdOutlineLocationOn />
           <span> Poland, Europe</span>
         </div>
-        <p className="my-2"> ongun.demirag@gmail.com </p>
-        <p className="my-2"> +48 731268928 | +90 5310231393</p>
+        <p className="my-2 text-md lg:text-xs 2xl:text-sm">
+          {" "}
+          ongun.demirag@gmail.com{" "}
+        </p>
+        <p className="my-2"> +48 571327846 | +90 5310231393</p>
       </div>
       {/* Email and Theme buttons */}
       <button
