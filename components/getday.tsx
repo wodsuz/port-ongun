@@ -1,5 +1,5 @@
 import React from "react";
-import { Helmet } from "react-helmet";
+import Head from "next/head";
 
 export const Getday = () => {
   var month = new Date().getMonth() + 1;
@@ -7,9 +7,9 @@ export const Getday = () => {
   var seperator = "/";
   const TITLE = "Ongun Demirağ | " + month + seperator + year;
   return (
-    <Helmet>
+    <Head>
       <title>{TITLE}</title>
-    </Helmet>
+    </Head>
   );
 };
 
