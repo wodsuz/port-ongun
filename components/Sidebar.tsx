@@ -42,10 +42,10 @@ const Sidebar = () => {
         {" "}
         <span> Ongun Demirağ </span>{" "}
       </h3>
-      <p className="flex items-center justify-center px-2 py-1 my-3 bg-gray-300 rounded-full dark:bg-dark-200">
+      <div className="flex items-center justify-center px-2 py-1 my-3 bg-gray-300 rounded-full dark:bg-dark-200">
         <FaFileCode className="w-7 h-7 " />{" "}
         <p className="px-3"> Web & Front-end Developer </p>
-      </p>
+      </div>
       <a
         target="_blank"
         rel="noreferrer"
@@ -53,11 +53,11 @@ const Sidebar = () => {
         href="https://drive.google.com/drive/folders/0B8f0SWVACBExTXBTR2ItTC1CVDQ?resourcekey=0-IbDYaTx566W_UTf5LpbXcQ&usp=sharing"
       >
         <GiDiploma className="w-8 h-8" />{" "}
-        <p className="px-3">
+        <div className="px-3">
           {" "}
           Certificates & Skills
           <span className="block max-w-0 group-hover:max-w-full transition-all duration-1000 h-0.5 bg-primary"></span>
-        </p>
+        </div>
       </a>
       <a
         target="_blank"
@@ -66,10 +66,10 @@ const Sidebar = () => {
         href="https://drive.google.com/drive/folders/1Wwry3C6cCYPZtnnj1aN2i33l_hSQMB-d?usp=sharing"
       >
         <FaDownload className="w-7 h-7 " />{" "}
-        <p className="px-3">
+        <div className="px-3">
           Download Resume{" "}
           <span className="block max-w-0 group-hover:max-w-full transition-all duration-1000 h-0.5 bg-primary"></span>
-        </p>
+        </div>
       </a>
 
       {/*  Social icon */}
@@ -118,7 +118,9 @@ const Sidebar = () => {
           {" "}
           ongun.demirag@gmail.com{" "}
         </p>
-        <p className="my-2"> +48 571327846 | +90 5310231393</p>
+        <p className="my-2 text-md lg:text-xs 2xl:text-sm">
+          +48 571327846 | +90 5310231393
+        </p>
       </div>
       {/* Email and Theme buttons */}
       <button
