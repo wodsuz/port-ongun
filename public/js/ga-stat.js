@@ -15655,7 +15655,7 @@
     ZD = function () {
       var a = "www";
       aE && bj() && (a = bj());
-      return "“/stat/" + a;
+      return "/stat/" + a;
     },
     YD = function () {
       var a;
