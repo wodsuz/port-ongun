@@ -119,7 +119,7 @@ const Sidebar = () => {
           ongun.demirag@gmail.com{" "}
         </p>
         <p className="my-2 text-md lg:text-xs 2xl:text-sm">
-          +48 571327846 | +90 5310231393
+     
         </p>
       </div>
       {/* Email and Theme buttons */}
