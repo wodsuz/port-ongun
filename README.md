@@ -12,7 +12,6 @@
 
 ## Features
 
-
 - Fully mobile responsive & friendly,
 - Graident colour design,
 - Dark & Light theme,
@@ -57,14 +56,13 @@
 
 ![light-house-report](https://user-images.githubusercontent.com/34207598/149515949-fd9d77ee-226e-4911-b5c8-f773c53f68a4.png)
 
-
-
 ## Mobile view
 
 ![FireShot Capture 020 - Ongun Demirağ - 1_2022 - www ongundemirag com](https://user-images.githubusercontent.com/34207598/149514885-8d5e90ff-cb34-4afe-83cd-017fe2a8161a.png)
 
+# Update
 
-
+Update npm: `npm update`
 
 # Thanks to youtube videos and tutorials
 
