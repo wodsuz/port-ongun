@@ -35,7 +35,6 @@ import {
   SiScrumalliance,
   SiAntdesign,
 } from "react-icons/si";
-import { icons } from "react-icons/lib";
 
 export const services: IService[] = [
   {
