@@ -2,9 +2,10 @@ import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
 import "../styles/globals.css";
 
-import { GoogleAnalytics } from "nextjs-google-analytics";
 import { ThemeProvider } from "next-themes";
 import { AnimatePresence } from "framer-motion";
+import { Analytics } from "@vercel/analytics/react";
+import { GoogleAnalytics } from "nextjs-google-analytics";
 
 function MyApp({ Component, pageProps, router }) {
   return (
@@ -29,6 +30,7 @@ function MyApp({ Component, pageProps, router }) {
           </AnimatePresence>
         </div>
       </div>
+      <Analytics />
     </ThemeProvider>
   );
 }
