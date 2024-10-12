@@ -153,7 +153,7 @@ const Sidebar = () => {
         aria-label="Toggle theme!"
         type="button"
         onClick={changeTheme}
-        className="w-10/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-indigo-purple to-indigo-red hover:scale-105"
+        className="w-10/12 px-5 py-2 my-2 text-sm text-white rounded-full bg-gradient-to-r from-indigo-purple to-indigo-red hover:scale-105"
       >
         Toggle theme!
       </button>
