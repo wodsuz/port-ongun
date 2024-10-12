@@ -26,18 +26,18 @@ const Sidebar = () => {
 
   return (
     <div>
-      <div className="p-1 rounded-full bg-gradient-to-tr from-[#7928ca] to-[#ff0080]">
+      <div className="p-1 rounded-full bg-gradient-to-tr from-[#7928ca] to-[#ff0080] max-w-[450px] mx-auto">
         <div className="p-1 bg-gray-300 rounded-full dark:bg-dark-200">
-          <Image
-            src={img_path}
-            alt="avatar"
-            className="mx-auto rounded-full"
-            layout="responsive"
-            quality="100"
-            height="50px"
-            width="50px"
-            objectFit="cover"
-          />
+          <div className="relative w-full aspect-square">
+            <Image
+              src={img_path}
+              alt="avatar"
+              className="rounded-full"
+              quality={100}
+              fill // Use 'fill' to ensure the image fills the container
+              style={{ objectFit: "cover" }} // Ensure the image covers the space
+            />
+          </div>
         </div>
       </div>
 

@@ -4,7 +4,7 @@ import { fadeInUp, stagger, routerAnimation } from "../animations";
 import ServiceCard from "../components/ServiceCard";
 import { services } from "../data";
 import { Getday } from "../components/getday";
-import { Favicon } from "../components";
+
 const index: NextPage = () => {
   return (
     <motion.div
