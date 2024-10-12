@@ -1,11 +1,13 @@
-import { motion } from "framer-motion";
 import Head from "next/head";
 import { useState } from "react";
+
+import { motion } from "framer-motion";
+
+import { category } from "../type";
+import { projects as projectsData } from "../data";
 import { fadeInUp, routerAnimation, stagger } from "../animations";
 import ProjectCard from "../components/ProjectCard";
 import ProjectsNavbar from "../components/ProjectsNavbar";
-import { projects as projectsData } from "../data";
-import { category } from "../type";
 import { Getday } from "../components/getday";
 
 const Projects = () => {

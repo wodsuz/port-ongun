@@ -116,6 +116,8 @@ const ProjectCard: FunctionComponent<{
           </motion.div>
 
           <button
+            aria-label="Close Modal"
+            type="button"
             onClick={() => setShowDetail(null)}
             className="absolute p-1 bg-gray-200 rounded-full top-3 right-3 focus:outline-none dark:bg-dark-200"
           >

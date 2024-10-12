@@ -235,9 +235,9 @@ export const tools: ISkill[] = [
 export const projects: IProject[] = [
   {
     id: 1,
-    name: "Ongundemirag website",
+    name: "Personal website",
     description:
-      "Personal portfolio website for Ongun Demirag 2022. With Next.js, TypeScript and Tailwind.",
+      "Personal portfolio website for Ongun Demirag. With Next.js, TypeScript and Tailwind.",
     image_path: "/images/Projectshots/ongundemirag.png",
     deployed_url: "https:/www.ongundemirag.com",
     github_url: "https://github.com/wodsuz/port-ongun",
@@ -246,33 +246,26 @@ export const projects: IProject[] = [
   },
   {
     id: 2,
-    name: "Movie-App",
-    image_path: "/images/Projectshots/moviepnew.png",
-    deployed_url: "https://wodsuz.github.io/movie-app/",
-    github_url: "https://github.com/wodsuz/movie-app",
-    category: ["React", "SASS", "UI", "API"],
-    description:
-      "TicTacToe application made by Ongun Demirag - www.ongundemirag.com",
-    key_techs: [
-      "React",
-      "API",
-      "Framer Motion",
-      "SCSS",
-      "Responsive",
-      "Multi-page",
-    ],
+    name: "Engineering company website",
+    image_path: "/images/Projectshots/arimedNew.png",
+    deployed_url: "https://arimed.vercel.app/",
+    github_url: "",
+    category: ["Next", "Node", "Tailwind CSS", "UI", "TypeScript"],
+    description: "Engineering Company website with contanct information",
+    key_techs: ["HTML", "CSS", "Bootstrap", "Chart.jd"],
   },
 
   {
     id: 3,
-    name: "Tic Tac Toe Game",
-    image_path: "/images/Projectshots/tictactoegame.png",
-    deployed_url: "https://tic-tac-toe-gamma-one.vercel.app/",
-    github_url: "https://github.com/wodsuz/Tic-Tac-Toe-game-",
-    category: ["Next", "SASS", "TypeScript"],
+
+    name: "Sales & Food company website",
+    image_path: "/images/Projectshots/kuzeyindsite.png",
+    deployed_url: "http://www.kuzeyind.com/",
+    github_url: "",
+    category: ["Next", "Node", "Tailwind CSS", "UI", "TypeScript"],
     description:
-      "TicTacToe application made by Ongun Demirag - www.ongundemirag.com",
-    key_techs: ["React", "firebase", "Framer Motion"],
+      "Dynamic, responsive and fast Food and export company website with contanct information",
+    key_techs: ["HTML", "CSS", "Bootstrap", "Chart.jd"],
   },
 
   {
@@ -349,24 +342,32 @@ export const projects: IProject[] = [
   },
   {
     id: 9,
-    name: "Engineering company website (ongoing)",
-    image_path: "/images/Projectshots/arimed.png",
-    deployed_url: "",
-    github_url: "",
-    category: ["Next", "Node", "Tailwind CSS", "UI", "TypeScript"],
-    description: "Engineering Company website with contanct information",
-    key_techs: ["HTML", "CSS", "Bootstrap", "Chart.jd"],
+    name: "Movie-App",
+    image_path: "/images/Projectshots/moviepnew.png",
+    deployed_url: "https://wodsuz.github.io/movie-app/",
+    github_url: "https://github.com/wodsuz/movie-app",
+    category: ["React", "SASS", "UI", "API"],
+    description:
+      "TicTacToe application made by Ongun Demirag - www.ongundemirag.com",
+    key_techs: [
+      "React",
+      "API",
+      "Framer Motion",
+      "SCSS",
+      "Responsive",
+      "Multi-page",
+    ],
   },
   {
     id: 10,
-    name: "Sales & Food company website (ongoing)",
-    image_path: "/images/Projectshots/kuzeyind.png",
-    deployed_url: "http://www.kuzeyind.com/",
-    github_url: "",
-    category: ["Next", "Node", "Tailwind CSS", "UI", "TypeScript"],
+    name: "Tic Tac Toe Game",
+    image_path: "/images/Projectshots/tictactoegame.png",
+    deployed_url: "https://tic-tac-toe-gamma-one.vercel.app/",
+    github_url: "https://github.com/wodsuz/Tic-Tac-Toe-game-",
+    category: ["Next", "SASS", "TypeScript"],
     description:
-      "Dynamic, responsive and fast Food and export company website with contanct information",
-    key_techs: ["HTML", "CSS", "Bootstrap", "Chart.jd"],
+      "TicTacToe application made by Ongun Demirag - www.ongundemirag.com",
+    key_techs: ["React", "firebase", "Framer Motion"],
   },
   {
     id: 11,
