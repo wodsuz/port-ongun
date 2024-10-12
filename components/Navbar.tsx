@@ -9,14 +9,14 @@ const NavItem: FunctionComponent<{
   route: string;
 }> = ({ active, setActive, name, route }) => {
   return active !== name ? (
-    <a href={route}>
-      <div className="flex transition duration-1000 group ">
+    <Link href={route}>
+      <a className="flex transition duration-1000 group ">
         <span className="mx-2 cursor-pointer " onClick={() => setActive(name)}>
           {name}
           <span className="block max-w-0 group-hover:max-w-full transition-all duration-1000 h-0.5 bg-primary"></span>
         </span>
-      </div>
-    </a>
+      </a>
+    </Link>
   ) : null;
 };
 
