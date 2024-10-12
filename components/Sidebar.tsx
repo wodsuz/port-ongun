@@ -38,14 +38,16 @@ const Sidebar = () => {
           />
         </div>
       </div>
+
       <h3 className="my-4 text-3xl font-medium font-kaushan">
-        {" "}
         <span> Ongun Demirağ </span>{" "}
       </h3>
+
       <div className="flex items-center justify-center px-2 py-1 my-3 bg-gray-300 rounded-full dark:bg-dark-200">
         <FaFileCode className="w-7 h-7 " />{" "}
-        <p className="px-3"> Web & Front-end Developer </p>
+        <p className="px-3"> Software & Web Developer </p>
       </div>
+
       <a
         target="_blank"
         rel="noreferrer"

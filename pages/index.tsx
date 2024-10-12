@@ -18,7 +18,7 @@ const index: NextPage = () => {
       <h5 className="my-3 text-lg font-medium text-justify">
         Electrical and electronics engineering bachelor’s degree, Automation and
         Robotics engineering master’s degree, as of now, I am focused on machine
-        learning and web application development. I have 3+ years of ECMAScript
+        learning and web application development. I have 5+ years of ECMAScript
         work experience and knowledge on Java & Python. Focusing on responsive,
         web and mobile applications by using new, promising frameworks. I have
         huge interest on following new technologies, innovations and
