@@ -1,17 +1,19 @@
+import Link from "next/link";
 import Image from "next/image";
 import { useTheme } from "next-themes";
+
 import {
   FaFileCode,
   FaDownload,
   FaHackerrank,
   FaGithub,
   FaLinkedin,
-  FaLocationArrow,
 } from "react-icons/fa";
-import { MdOutlineLocationOn } from "react-icons/md";
-import { GiDiploma } from "react-icons/gi";
 import { SiVercel } from "react-icons/si";
-import { DisplayDate, Getday } from "./getday";
+import { GiDiploma } from "react-icons/gi";
+import { MdOutlineLocationOn } from "react-icons/md";
+
+import { DisplayDate } from "./getday";
 
 var random_num = Math.floor(Math.random() * 7);
 var img_path = "/images/Propic/ongun" + random_num + ".jpg";
@@ -50,20 +52,20 @@ const Sidebar = () => {
 
       <a
         target="_blank"
-        rel="noreferrer"
+        rel="noopener noreferrer"
         className="flex items-center justify-center px-2 py-1 my-3 transition duration-1000 bg-gray-300 rounded-full dark:bg-dark-200 group "
         href="https://drive.google.com/drive/folders/0B8f0SWVACBExTXBTR2ItTC1CVDQ?resourcekey=0-IbDYaTx566W_UTf5LpbXcQ&usp=sharing"
       >
-        <GiDiploma className="w-8 h-8" />{" "}
+        <GiDiploma className="w-8 h-8" />
         <div className="px-3">
-          {" "}
           Certificates & Skills
           <span className="block max-w-0 group-hover:max-w-full transition-all duration-1000 h-0.5 bg-primary"></span>
         </div>
       </a>
+
       <a
         target="_blank"
-        rel="noreferrer"
+        rel="noopener noreferrer"
         className="flex items-center justify-center px-2 py-1 my-3 transition duration-1000 bg-gray-300 rounded-full dark:bg-dark-200 group "
         href="https://drive.google.com/drive/folders/1Wwry3C6cCYPZtnnj1aN2i33l_hSQMB-d?usp=sharing"
       >
@@ -76,16 +78,22 @@ const Sidebar = () => {
 
       {/*  Social icon */}
       <div className="flex justify-around w-9/12 mx-auto my-5 text-secondary md:w-full ">
-        <a href="https://github.com/wodsuz" target="_blank" rel="noreferrer">
+        <a
+          title="Github"
+          href="https://github.com/wodsuz"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FaGithub
             className="w-8 h-8 cursor-pointer hover:text-primary "
             aria-label="github"
           />
         </a>
         <a
+          title="Linkedin"
           href="https://www.linkedin.com/in/ongun-demirag"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <FaLinkedin
             className="w-8 h-8 cursor-pointer hover:text-primary "
@@ -93,16 +101,22 @@ const Sidebar = () => {
           />
         </a>
         <a
+          title="Hackerrank"
           href="https://www.hackerrank.com/wodsuz"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <FaHackerrank
             className="w-8 h-8 cursor-pointer hover:text-primary "
             aria-label="hackerrank"
           />
         </a>
-        <a href="https://vercel.com/wodsuz" target="_blank" rel="noreferrer">
+        <a
+          title="Vercel"
+          href="https://vercel.com/wodsuz"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <SiVercel
             className="w-8 h-8 cursor-pointer hover:text-primary "
             aria-label="Vercel"
@@ -118,7 +132,7 @@ const Sidebar = () => {
         </div>
         <p className="my-2 text-md lg:text-xs 2xl:text-sm">
           {" "}
-          ongun.demirag@gmail.com{" "}
+          ongun@ongundemirag.com
         </p>
         {/*
   <p className="my-2 text-md lg:text-xs 2xl:text-sm">
@@ -128,14 +142,18 @@ const Sidebar = () => {
       </div>
       {/* Email and Theme buttons */}
       <button
-        className="w-8/12 px-5 py-2 text-white rounded-full px-15 bg-gradient-to-r from-indigo-purple to-indigo-red hover:scale-105"
-        onClick={() => window.open("mailto:ongun.demirag@gmail.com")}
+        aria-label="Email me now!"
+        type="button"
+        className="w-10/12 px-5 py-2 text-sm text-white rounded-full px-15 bg-gradient-to-r from-indigo-purple to-indigo-red hover:scale-105"
+        onClick={() => window.open("mailto:ongun@ongundemirag.com")}
       >
         Email me now!
       </button>
       <button
+        aria-label="Toggle theme!"
+        type="button"
         onClick={changeTheme}
-        className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-indigo-purple to-indigo-red hover:scale-105"
+        className="w-10/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-indigo-purple to-indigo-red hover:scale-105"
       >
         Toggle theme!
       </button>
