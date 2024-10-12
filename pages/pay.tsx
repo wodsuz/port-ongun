@@ -7,6 +7,7 @@ import { Getday } from "../components/getday";
 
 const resume = () => (
   <div className="px-6 py-2">
+    <Getday />
     {/*  education & experience  */}
 
     <div className="grid gap-2 md:grid-cols-2">
@@ -53,9 +54,9 @@ const resume = () => (
           <p className="text-base font-semibold"> May 2022 - Aug 2023 </p>
           <p className="my-1">
             Cryptocurrency, blockchain, web 3.0 applications, metamask
-            integration, guilding, helper scripts for Play to Earn games. Work
-            with smart contracts and token abis mostly in ERC20 and ERC721
-            standards. standards.
+            integration, guilding, helper scripts for Play to Earn games.Work
+            with smart contracts and token abi&apos;s mostly in ERC20 and ERC721
+            standards.
           </p>
 
           <h5 className="my-1 text-lg font-bold">

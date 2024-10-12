@@ -1,0 +1,310 @@
+[33mcommit b515d8719b3d746aaeea67d71b496b7a865120e7[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: Ongun <ongun.demirag@gmail.com>
+Date:   Sat Oct 12 15:47:06 2024 +0200
+
+    Revert "Refactor Sidebar component to update theme toggle button styling"
+    
+    This reverts commit 74c896a5590551bfd73aba9f3eb3bde13322bd5e.
+
+[33mcommit 65e74dd59753ce92a37459bcf10db4d65ed15c36[m
+Author: Ongun <ongun.demirag@gmail.com>
+Date:   Sat Oct 12 14:54:22 2024 +0200
+
+    Refactor Next.js TypeScript configuration file
+
+[33mcommit 74c896a5590551bfd73aba9f3eb3bde13322bd5e[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Ongun <ongun.demirag@gmail.com>
+Date:   Sat Oct 12 14:30:05 2024 +0200
+
+    Refactor Sidebar component to update theme toggle button styling
+
+[33mcommit 105be0a40327f691d1ad85fc4b501e30fb6a513a[m
+Author: Ongun <ongun.demirag@gmail.com>
+Date:   Sat Oct 12 14:29:31 2024 +0200
+
+    Refactor ProjectCard component and add close button to modal
+
+[33mcommit 9e20aa9f30b1d0af04785ab73b897ce8d98faccb[m
+Author: Ongun <ongun.demirag@gmail.com>
+Date:   Sat Oct 12 14:19:51 2024 +0200
+
+    Refactor sidebar component and update developer description
+
+[33mcommit 9cddccca4d0d47dead8f5025036a63617b1cb84a[m
+Author: Ongun <ongun.demirag@gmail.com>
+Date:   Sat Oct 12 13:37:56 2024 +0200
+
+    Refactor sidebar component and update developer description
+    
+    - Removed unnecessary whitespace and commented out code in the Sidebar component
+    - Updated the developer description in the Sidebar component from "Web & Front-end Developer" to "Software & Web Developer"
+    - Updated the work experience in the index page from "3+ years" to "5+ years" of ECMAScript work experience
+
+[33mcommit cd7569b9461090039c7217468459ec0c8811b35b[m
+Author: Ongun <ongun.demirag@gmail.com>
+Date:   Sun Feb 4 02:32:35 2024 +0100
+
+    hide phone num
+
+[33mcommit d74a6cdb88db920522492071bf0f0792ce963019[m
+Author: wodsuz <ongun.demirag@gmail.com>
+Date:   Thu Dec 7 02:59:13 2023 +0100
+
+    added favicon and seo tags
+
+[33mcommit e4e0adf160f7c7504b4045f492107de65fd6a6f5[m
+Author: wodsuz <ongun.demirag@gmail.com>
+Date:   Thu Dec 7 02:42:10 2023 +0100
+
+    added vercel analytics
+
+[33mcommit 4faaf441a5125a1176aab30c52bf3d3324e50f87[m
+Author: wodsuz <ongun.demirag@gmail.com>
+Date:   Thu Dec 7 02:37:38 2023 +0100
+
+    remove icons export in data.ts
+
+[33mcommit 6973f0c1a6ce3aa1d4f34ec9df969ff8aa6b227b[m
+Author: wodsuz <ongun.demirag@gmail.com>
+Date:   Thu Dec 7 02:36:17 2023 +0100
+
+    cleaned the code
+
+[33mcommit 2e39560c1368cd995399086026d92dd3bd3e50ef[m
+Author: wodsuz <ongun.demirag@gmail.com>
+Date:   Thu Dec 7 02:28:28 2023 +0100
+
+    updated node and added phone num
+
+[33mcommit cec7df00bbb80f85ca46580deeb195d36fa361dc[m
+Merge: e66d5eb adf8bb8
+Author: Ongun <34207598+wodsuz@users.noreply.github.com>
+Date:   Wed Oct 25 23:28:40 2023 +0200
+
+    Merge pull request #1 from wodsuz/phonenum
+    
+    updated phone num
+
+[33mcommit adf8bb8d9c92507576a807d46f1488d188e92fac[m[33m ([m[1;31morigin/phonenum[m[33m)[m
+Author: Ongun <34207598+wodsuz@users.noreply.github.com>
+Date:   Wed Oct 25 23:27:36 2023 +0200
+
+    updated phone num
+
+[33mcommit e66d5eb8943fa7be36df1b9a8626901877463f20[m
+Author: Ongun Demirag <ongun.demirag@gmail.com>
+Date:   Sat Aug 12 01:28:16 2023 +0300
+
+    added google analytics
+
+[33mcommit cef28affa8efacdde46a0202ef600f58404da460[m
+Author: Ongun Demirag <ongun.demirag@gmail.com>
+Date:   Sat Aug 12 01:21:41 2023 +0300
+
+    added google analytics
+
+[33mcommit 5cf75a98a00c4e203e5746f274c1973efa248ec8[m
+Author: Ongun Demirag <ongun.demirag@gmail.com>
+Date:   Sat Aug 12 00:58:46 2023 +0300
+
+    added google analytics
+
+[33mcommit b844138f33be41ed0af6610dea70887c6f7d8358[m
+Author: Ongun Demirag <ongun.demirag@gmail.com>
+Date:   Fri Aug 11 02:02:54 2023 +0300
+
+    removed helmet added next head
+
+[33mcommit c586e21a492d85743324e559e52d69beec0d81e6[m
+Author: Ongun Demirag <ongun.demirag@gmail.com>
+Date:   Fri Aug 11 01:57:58 2023 +0300
+
+    updated mobile responsiveness
+
+[33mcommit fbe9c26a1eb5bb96b2b4567eb33ca6bb220b08fa[m
+Author: Ongun Demirag <ongun.demirag@gmail.com>
+Date:   Fri Aug 11 01:55:20 2023 +0300
+
+    updated hover animations
+
+[33mcommit fca14a5f35203ada50e439e0b68f990fec84e50b[m
+Author: Ongun Demirag <ongun.demirag@gmail.com>
+Date:   Fri Aug 11 01:39:28 2023 +0300
+
+    added skills and updated resume
+
+[33mcommit d3d231c52fb325d31b96dc0e9ebc761bd03bb5b5[m
+Author: Ongun Demirag <ongun.demirag@gmail.com>
+Date:   Thu Aug 10 20:54:27 2023 +0300
+
+    updated email field
+
+[33mcommit fbba6cb2dbfab7e0552f620e827ccb00a5fa8f36[m
+Author: Ongun Demirag <ongun.demirag@gmail.com>
+Date:   Thu Aug 10 20:44:50 2023 +0300
+
+    updated sidebar button hover effects
+
+[33mcommit b15f67f089f494f2f73b0ab907d46b3f4ab81c59[m
+Author: Ongun Demirag <ongun.demirag@gmail.com>
+Date:   Wed Aug 9 01:05:42 2023 +0300
+
+    removed env file
+
+[33mcommit 5c296b387d62a51c11f6aac6d2d12421c6a67809[m
+Author: Ongun Demirag <ongun.demirag@gmail.com>
+Date:   Wed Aug 9 01:02:03 2023 +0300
+
+    updated hover and animation effects
+
+[33mcommit 2827ddbb1cbb7abfde00da4702d18c97fca62e6a[m
+Author: Ongun <34207598+wodsuz@users.noreply.github.com>
+Date:   Tue Jan 18 19:09:45 2022 +0300
+
+    gif v2
+    
+    added gif v2
+
+[33mcommit 6222be4ecaea68e4ffa2623e21e4fdc8e5cc784f[m
+Author: Ongun <34207598+wodsuz@users.noreply.github.com>
+Date:   Tue Jan 18 19:08:39 2022 +0300
+
+    added gif
+    
+    gif
+
+[33mcommit 35d0a736a8ba9268fbd2b720b02c5fc06020d2a3[m
+Author: Ongun <34207598+wodsuz@users.noreply.github.com>
+Date:   Fri Jan 14 15:32:51 2022 +0300
+
+    Update README.md
+    
+    lighthouse report added
+
+[33mcommit dd4fe53da1f3cd074e4f30ee89d1415bb269c29d[m
+Author: Ongun <34207598+wodsuz@users.noreply.github.com>
+Date:   Fri Jan 14 15:22:45 2022 +0300
+
+    Update README.md
+    
+    images added
+
+[33mcommit 31fb78de0b140114b9e416b4df20b41d70c7a79a[m
+Author: Ongun Demirag <ongun.demirag@gmail.com>
+Date:   Fri Jan 14 15:11:45 2022 +0300
+
+    some typo changes
+
+[33mcommit 4110665197fb91a06aab101b87e4e16c8d79b956[m
+Author: Ongun Demirag <ongun.demirag@gmail.com>
+Date:   Sun Jan 9 02:04:41 2022 +0300
+
+    vercellogo
+
+[33mcommit 8ff7328417e70ed46ec67cf375f137f971571690[m
+Author: Ongun Demirag <ongun.demirag@gmail.com>
+Date:   Sun Jan 9 01:57:20 2022 +0300
+
+    vercel
+
+[33mcommit 19368b36d5083cff4b938580302693e9db647bb9[m
+Author: Ongun Demirag <ongun.demirag@gmail.com>
+Date:   Sun Jan 9 01:40:32 2022 +0300
+
+    vercel
+
+[33mcommit 1f27beef1c14c148fb148111d83fc75d34e1b2d8[m
+Author: Ongun Demirag <ongun.demirag@gmail.com>
+Date:   Sat Jan 8 18:24:53 2022 +0300
+
+    personal info added
+
+[33mcommit 6a7401906606ba7387ce11921af0890a1ba965f8[m
+Author: Ongun Demirag <ongun.demirag@gmail.com>
+Date:   Sat Jan 8 04:10:56 2022 +0300
+
+    addedicons
+
+[33mcommit bdf76ed6c0ef437d074e82ddfd3c76b53cd0b26f[m
+Author: Ongun Demirag <ongun.demirag@gmail.com>
+Date:   Sat Jan 8 02:57:00 2022 +0300
+
+    newrdm and propics
+
+[33mcommit 51faeec139ee7a493b0b3cda94e8078eca09fffc[m
+Author: Ongun Demirag <ongun.demirag@gmail.com>
+Date:   Sat Jan 8 02:14:27 2022 +0300
+
+    added date, cleared bug and text file
+
+[33mcommit 76e0ff6b1c48e8cfb92ef870badf4433f2818cc7[m
+Author: Ongun Demirag <ongun.demirag@gmail.com>
+Date:   Fri Jan 7 18:03:06 2022 +0300
+
+    readme.md upd
+
+[33mcommit 4470edd0406701fe50cd51488d8b6be446f9d568[m
+Author: Ongun Demirag <ongun.demirag@gmail.com>
+Date:   Fri Jan 7 06:16:35 2022 +0300
+
+    bar animations
+
+[33mcommit 569d93b95a4341ca3d673f5fed6faea707ec7da6[m
+Author: Ongun Demirag <ongun.demirag@gmail.com>
+Date:   Fri Jan 7 05:17:38 2022 +0300
+
+    continued animations
+
+[33mcommit 3bfa63ece8f4c261c3721de70c572a16114e06ac[m
+Author: Ongun Demirag <ongun.demirag@gmail.com>
+Date:   Fri Jan 7 04:51:47 2022 +0300
+
+    style
+
+[33mcommit 1eff374d9fd0e7735b375e619704c66422f08ab6[m
+Author: Ongun Demirag <ongun.demirag@gmail.com>
+Date:   Fri Jan 7 02:26:20 2022 +0300
+
+    animations
+
+[33mcommit c5f29b76759f9af6f759677bbd44fa64cbc31a92[m
+Author: Ongun Demirag <ongun.demirag@gmail.com>
+Date:   Fri Jan 7 00:13:45 2022 +0300
+
+    projects design
+
+[33mcommit 6234a69def4e1f75b2e17e6415e0b0044005f3e9[m
+Author: Ongun Demirag <ongun.demirag@gmail.com>
+Date:   Thu Jan 6 23:48:44 2022 +0300
+
+    projects file
+
+[33mcommit 48393d2a9ea31654deb83ee759be433c2fda66ed[m
+Author: Ongun Demirag <ongun.demirag@gmail.com>
+Date:   Thu Jan 6 22:45:16 2022 +0300
+
+    projects page cont.
+
+[33mcommit 99a8351859419c6a3b9de7bf819c6d1137a9d31c[m
+Author: Ongun Demirag <ongun.demirag@gmail.com>
+Date:   Thu Jan 6 20:08:07 2022 +0300
+
+    projectpage
+
+[33mcommit 8a71a2fb0f6ad58bad6c9f1d6419cf04a63485a0[m
+Author: Ongun Demirag <ongun.demirag@gmail.com>
+Date:   Thu Jan 6 16:04:43 2022 +0300
+
+    forth
+
+[33mcommit 7c01ed83ec682c02149181141d33f35addc0abc7[m
+Author: Ongun Demirag <ongun.demirag@gmail.com>
+Date:   Thu Jan 6 03:59:55 2022 +0300
+
+    sec com
+
+[33mcommit 9ca29cb66929617bada356516e6cfabf13548c72[m
+Author: Ongun Demirag <ongun.demirag@gmail.com>
+Date:   Wed Jan 5 16:42:07 2022 +0300
+
+    initial commit
