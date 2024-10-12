@@ -3,8 +3,7 @@ import { NextPage } from "next";
 import { fadeInUp, stagger, routerAnimation } from "../animations";
 import ServiceCard from "../components/ServiceCard";
 import { services } from "../data";
-import { Getday } from "../components/getday";
-import { Favicon } from "../components";
+
 const index: NextPage = () => {
   return (
     <motion.div
@@ -14,7 +13,6 @@ const index: NextPage = () => {
       animate="animate"
       exit="exit"
     >
-      <Getday />
       <h5 className="my-3 text-lg font-medium text-justify">
         Electrical and electronics engineering bachelor’s degree, Automation and
         Robotics engineering master’s degree, as of now, I am focused on machine
@@ -24,10 +22,7 @@ const index: NextPage = () => {
         huge interest on following new technologies, innovations and
         implementing them on older outdated applications.
       </h5>
-      <div
-        className="flex-grow p-4 mt-5 bg-gray-100 dark:bg-dark-100 "
-        style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
-      >
+      <div className="flex-grow p-4 mt-5 bg-gray-100 dark:bg-dark-100 ">
         <h4 className="my-1 text-xl font-semibold tracking-wide">
           {" "}
           Responsibilities{" "}
